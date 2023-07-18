@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: #15103e;
+    background-color: #4337ae;
+}
+  
+  .container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    height: 80vh;
+  }
+  
+  h1 {
+    font-size: 11rem;
+    letter-spacing: 1rem;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .clock {
+    /* width: fit-content; */
+    /* margin-inline: auto; */
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    padding: 2.5rem 5rem;
+    background-color: #6b5def;
+    color: #fff;
+    border-radius: 1rem;
+  }
+  
+  .clock p {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+  
+  p span {
+    font-size: 3rem;
+  }
